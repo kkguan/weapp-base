@@ -1,0 +1,48 @@
+@import './var.less';
+@import './mixins/clearfix.less';
+@import './mixins/ellipsis.less';
+@import './mixins/hairline.less';
+
+.hairline {
+    position: relative;
+    &::after {
+        .hairline();
+    }
+    &.hairline-top {
+        &::after {
+            border-top-width: 1px;
+        }
+    }
+    &.hairline-bottom {
+        &::after {
+            border-bottom-width: 1px;
+        }
+    }
+    &.hairline-left {
+        &::after {
+            border-left-width: 1px;
+        }
+    }
+    &.hairline-right {
+        &::after {
+            border-right-width: 1px;
+        }
+    }
+    &.hairline-round {
+        &::after {
+            border-width: 1px;
+        }
+    }
+}
+
+.line-1 {
+    .ellipsis();
+}
+
+.line-2 {
+    .multi-ellipsis();
+}
+
+.clearfix {
+    .clearfix();
+}
