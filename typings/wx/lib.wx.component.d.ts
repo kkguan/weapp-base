@@ -1,5 +1,7 @@
 /**
  * author: alan
+ * date: 2019.01.09
+ * version: 1.0.0
  */
 
 declare namespace Component {
