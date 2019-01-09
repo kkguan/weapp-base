@@ -1,7 +1,7 @@
 ## 小程序脚手架
 
 ### 简介
-	支持typescript less
+	支持typescript less的小程序脚手架
 
 ### 运行说明
     1. 在project.config.json中加上自己的appid
